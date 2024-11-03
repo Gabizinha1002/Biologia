@@ -1,22 +1,41 @@
 *{
     margin: 0;
 }
+body{
+    background-color:  #f8ebe2;
+}
+header {
+    background-color: #f77dc0;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    
+}
 
-.container h1{
+header h1{
     font-family: 'Noto Sans Japanese';
     text-align: center;
     padding: 30px;
     font-size: 50px;
 }
-.container h2{
+main{
+    margin: 20px 80px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+main h2{
+    padding: 20px;
     font-family: 'Noto Sans Japanese';
     text-align: center;
     font-size: 25px;
 }
-.container p{
+main p{
     font-size: 25px;
     font-family: 'Noto Sans Japanese';
     text-align: center;
     margin: 20px 100px;
-
+    padding-bottom: 20px;
 }
