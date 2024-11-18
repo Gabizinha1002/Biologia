@@ -19,89 +19,32 @@ header h1{
     font-size: 50px;
 }
 
-.feminino{
-    margin-top: 50px;
-    background-color: #e38d81;
-    padding: 20px;
-}
-.masculino{
-    background-color: #88a1ec;
-    padding: 20px;
-}
-.feminino button{
-    padding: 20px;
-    font-family: 'Noto Sans Japanese';
-    text-align: center;
-    font-size: 25px;
-    border-radius: 40px;
-    color: black;
-    box-shadow: 2px solid darksalmon;
-    background-color: #e38d81;
-}
-.masculino button{
-    padding: 20px;
-    font-family: 'Noto Sans Japanese';
-    text-align: center;
-    font-size: 25px;
-    border-radius: 40px;
-    color:  black;
-    box-shadow: 2px solid darkblue;
-    background-color: #88a1ec;
-
-}
-
 .button-masculino  {
+    text-decoration: none;
+    font-family: 'Noto Sans Japanese';
+    font-size: 20px;
     height: 50px;
     width: 200px;
     position: relative;
-    background-color: #dbe3f9;
+    background-color: #88a1ec;
     cursor: pointer;
     border: 2px solid #252525;
     overflow: hidden;
     border-radius: 30px;
-    color: #fff;
+    color: black;
     transition: all 0.5s ease-in-out;
   }
   .button-feminino  {
+    text-decoration: none;
+    font-family: 'Noto Sans Japanese';
+    font-size: 20px;
     height: 50px;
     width: 200px;
-    position: relative;
-    background-color: #f7deda;
+    background-color: #e38d81;
     cursor: pointer;
     border: 2px solid #252525;
     overflow: hidden;
     border-radius: 30px;
-    color: #fff;
-    transition: all 0.5s ease-in-out;
-  }
-  .btn-txt {
-    z-index: 1;
-    font-weight: 800;
-    letter-spacing: 4px;
-  }
-  
-  .type1::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    transition: all 0.5s ease-in-out;
-    background-color: #333;
-    border-radius: 30px;
-    visibility: hidden;
-    height: 10px;
-    width: 10px;
-    z-index: -1;
-  }
-  
-  .button:hover {
-    box-shadow: 1px 1px 200px #252525;
-    color: #fff;
-    border: none;
-  }
-  
-  .type1:hover::after {
-    visibility: visible;
-    transform: scale(100) translateX(2px);
+    color: black;
   }
   
