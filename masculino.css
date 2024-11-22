@@ -10,15 +10,51 @@ header{
     color: white;
     padding: 20px 0;
     text-align: center;
-    
 }
 
-header h1{
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Noto Sans Japanese';
+    background: #88a1ec;
+    height: 18vh;
+  }
+
+.logo{
     font-family: 'Noto Sans Japanese';
     text-align: center;
-    padding: 30px;
     font-size: 50px;
+    text-transform: uppercase;
 }
+
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    text-align: center;
+  }
+  
+  .nav-list li {
+    padding: 50px;
+    font-size: 30px;
+  }
+
+
+
+  a {
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 30px;
+  }
+  
+  a:hover {
+    opacity: 0.7;
+    text-decoration: underline;
+  }
+
 main{
     margin: 30px 100px;
     border-radius: 8px;
@@ -37,7 +73,7 @@ main p{
     font-size: 25px;
     font-family: 'Noto Sans Japanese';
     text-align: center;
-    margin: 20px 100px;
+    margin: 20px 200px;
     padding-bottom: 20px;
 }
 
