@@ -35,30 +35,31 @@ nav {
 
 
 .nav-list {
-    list-style: none;
-    display: flex;
-    text-align: center;
-  }
-  
-  .nav-list li {
-    padding: 50px;
-    font-size: 30px;
-  }
+  font-family: "Parkinsans", sans-serif;
+  list-style: none;
+  display: flex;
+  text-align: center;
+}
+
+.nav-list li {
+  padding: 50px;
+  font-size: 25px;
+}
 
 
 
-  a {
-    text-align: center;
-    color: #fff;
-    text-decoration: none;
-    transition: 0.3s;
-    font-size: 30px;
-  }
-  
-  a:hover {
-    opacity: 0.7;
-    text-decoration: underline;
-  }
+a {
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 25px;
+}
+
+a:hover {
+  opacity: 0.7;
+  text-decoration: underline;
+}
 
 main{
     margin: 30px 100px;
@@ -70,20 +71,21 @@ main{
 
 main h2{
     padding: 20px;
-    font-family: 'Noto Sans Japanese';
+    font-family: "Parkinsans", sans-serif;
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
 }
 main p{
-    font-size: 25px;
-    font-family: 'Noto Sans Japanese';
+    font-size: 20px;
+     font-family: "Parkinsans", sans-serif;
     text-align: center;
     margin: 20px 100px;
     padding-bottom: 20px;
 }
 
 .lista{
-    font-size: 25px;
+    font-family: "Parkinsans", sans-serif;
+    font-size: 20px;
     padding-left: 250px;
     padding-bottom: 50px;
     padding-right: 200px;
